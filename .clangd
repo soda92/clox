@@ -1,3 +1,5 @@
 CompileFlags:
     Add: -IC:/Users/fts-guest-05600/scoop/apps/gcc/current/x86_64-w64-mingw32/include
     Add: -xc
+    Add: --target=x86_64-w64-windows-gnu
+
