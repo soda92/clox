@@ -1,10 +1,11 @@
 #include <stdio.h>
 
+#include "chunk.h"
 #include "common.h"
 #include "compiler.h"
 #include "scanner.h"
 
-void compile(const char* source) {
+bool compile(const char* source, Chunk* chunk) {
   initScanner(source);
   int line = -1;
   for (;;) {
