@@ -1,3 +1,4 @@
 CompileFlags:
-    Add: ["-IC:/Users/fts-guest-05600/scoop/apps/gcc/current/x86_64-w64-mingw32/include", "-xc", "--target=x86_64-w64-windows-gnu"]
+  #Add: ["-I/usr/include", "-IC:/Users/fts-guest-05600/scoop/apps/gcc/current/x86_64-w64-mingw32/include", "-xc", "--target=x86_64-w64-windows-gnu"]
+  Add: ["-I/usr/include", "-xc", "--target=x86_64-w64-windows-gnu"]
 
