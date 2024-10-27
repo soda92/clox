@@ -2,5 +2,4 @@ BasedOnStyle: LLVM
 PointerAlignment: Left
 AllowShortIfStatementsOnASingleLine: WithoutElse
 AllowShortCaseLabelsOnASingleLine: true
-AlignEscapedNewlines: Left
-
+AlignEscapedNewlines: Right

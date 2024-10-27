@@ -1,3 +1,9 @@
 /clox
 *.exe
 *~
+
+# cmake
+/build
+
+# clangd
+/.cache

@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "decodetalkers.neocmake-lsp-vscode",
+        "ms-vscode.cmake-tools",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "github.github-vscode-theme",
+        "editorconfig.editorconfig"
+    ]
+}
