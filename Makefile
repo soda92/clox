@@ -1,10 +1,10 @@
 all: build
 .PHONY: build
 
-build:
+build: fmt
 	cmake --preset windows
 	cmake --build build
 	gen_lsp_tdm
 
 fmt:
-	python run_format.py
+	python scripts/run_format.py
