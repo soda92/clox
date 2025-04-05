@@ -3,3 +3,4 @@ PointerAlignment: Left
 AllowShortIfStatementsOnASingleLine: WithoutElse
 AllowShortCaseLabelsOnASingleLine: true
 AlignEscapedNewlines: Right
+SortIncludes: Never

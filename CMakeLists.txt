@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.22)
 project(clox)
 
+FILE(GLOB SOURCES *.h *.c)
 
-FILE(GLOB MY_SRCS *.h *.c)
+set(TARGET clox)
 
-add_executable(clox ${MY_SRCS})
+add_executable(${TARGET} ${SOURCES})

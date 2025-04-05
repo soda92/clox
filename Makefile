@@ -1,2 +1,10 @@
-clox: chunk.c memory.c main.c vm.c debug.c value.c compiler.c scanner.c
-	gcc -g chunk.c memory.c main.c vm.c debug.c value.c compiler.c scanner.c -o clox
+all: build
+.PHONY: build
+
+build:
+	cmake --preset windows
+	cmake --build build
+	gen_lsp_tdm
+
+fmt:
+	python run_format.py

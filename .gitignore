@@ -4,6 +4,7 @@
 
 # cmake
 /build
+/compile_*.json
 
 # clangd
 /.cache
