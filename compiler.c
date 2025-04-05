@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "compiler.h"
 #include "chunk.h"
 #include "common.h"
@@ -6,9 +9,6 @@
 #ifdef DEBUG_PRINT_CODE
 #include "debug.h"
 #endif
-
-#include <stdio.h>
-#include <stdlib.h>
 
 typedef struct {
   Token current;
